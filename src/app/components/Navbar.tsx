@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger Menu for Mobile */}
-      <div className="md:hidden flex items-center space-x-4">
+      <div className="md:hidden flex items-center space-x-9">
         {/* Search Icon for Mobile */}
         <button onClick={toggleMobileSearch} className="focus:outline-none">
           <i className="fas fa-search text-lg"></i>
