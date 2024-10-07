@@ -90,7 +90,7 @@ const Navbar = () => {
   const imageUrl = process.env.NEXT_PUBLIC_TMDB_IMAGE_URL || "";
 
   return (
-    <nav className="fixed top-5 inset-x-0 transform -translate-x-1/2 bg-white/10 backdrop-blur-lg text-white py-2 px-6 rounded-full z-50 shadow-md flex items-center justify-between space-x-8 w-auto">
+    <nav className="fixed top-5 left-1/2 inset-x-0 transform -translate-x-1/2 bg-white/10 backdrop-blur-lg text-white py-2 px-6 rounded-full z-50 shadow-md flex items-center justify-between space-x-8 w-auto">
       {/* Logo */}
       <div className="flex items-center hover:text-green cursor-pointer">
         <img src={logoUrl.src} alt="Logo" className="h-8 sm:w-1 w-50" />
