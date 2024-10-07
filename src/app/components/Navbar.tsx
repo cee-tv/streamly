@@ -90,14 +90,14 @@ const Navbar = () => {
   const imageUrl = process.env.NEXT_PUBLIC_TMDB_IMAGE_URL || "";
 
   return (
-    <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-lg text-white py-2 px-6 rounded-full z-50 shadow-md flex items-center justify-between space-x-8 w-auto">
+    <nav className="fixed top-0 left-auto transform -translate-x-1/2 bg-white/10 backdrop-blur-lg text-white py-2 px-6 rounded-full z-50 shadow-md flex items-center justify-between space-x-8 w-auto">
       {/* Logo */}
       <div className="flex items-center hover:text-green cursor-pointer">
         <img src={logoUrl.src} alt="Logo" className="h-8 sm:w-20 w-12" />
       </div>
 
       {/* Hamburger Menu for Mobile */}
-      <div className="md:hidden flex items-center space-x-9">
+      <div className="md:hidden flex items-center space-x-4">
         {/* Search Icon for Mobile */}
         <button onClick={toggleMobileSearch} className="focus:outline-none">
           <i className="fas fa-search text-lg"></i>
