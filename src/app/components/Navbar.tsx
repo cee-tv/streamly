@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { fetchSearch } from "../api/tmdb";
 import { SearchResult } from "../types/types";
-import logoUrl from "../assets/greenLogo.png";
+import logoUrl from "../assets/redLogo.png";
 import smallPoster from "../assets/posterLogoSmall.png";
 
 const Navbar = () => {
@@ -93,7 +93,7 @@ const Navbar = () => {
     <nav className="fixed top-5 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-lg text-white py-2 px-6 rounded-full z-50 shadow-md flex items-center justify-between space-x-8 w-auto">
       {/* Logo */}
       <div className="flex items-center hover:text-green cursor-pointer">
-        <img src={logoUrl.src} alt="Logo" className="h-8 sm:w-20 w-12" />
+        <img src={logoUrl.src} alt="Logo" className="h-8 sm:w-20 w-32" />
       </div>
 
       {/* Hamburger Menu for Mobile */}
