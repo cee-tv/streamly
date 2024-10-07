@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { fetchSearch } from "../api/tmdb";
 import { SearchResult } from "../types/types";
-import logoUrl from "../assets/greenLogo.png";
+import logoUrl from "../assets/redLogo.png";
 import smallPoster from "../assets/posterLogoSmall.png";
 
 const Navbar = () => {
